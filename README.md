@@ -193,9 +193,9 @@ For a battery-powered version, the intended architecture is:
 Li-ion Battery
       |
       v
-5V Boost / Power-bank Module
-      |
-      |
+5V Boost / Power-bank Module <-----------------
+      |                                        |
+      |                                        |
       +----------> ESP32-S3 5V +----------> USB Keyboard 5V
 ```
 
