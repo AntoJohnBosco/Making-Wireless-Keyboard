@@ -195,9 +195,8 @@ Li-ion Battery
       v
 5V Boost / Power-bank Module
       |
-      +----------> USB Keyboard 5V
       |
-      +----------> ESP32-S3 5V
+      +----------> ESP32-S3 5V +----------> USB Keyboard 5V
 ```
 
 The final hardware should use an appropriate power-path/load-sharing design so that USB 5 V sources do not directly fight each other.
